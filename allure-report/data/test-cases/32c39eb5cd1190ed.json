@@ -1,0 +1,97 @@
+{
+  "uid" : "32c39eb5cd1190ed",
+  "name" : "test_search",
+  "fullName" : "tests.test_search.TestSearch#test_search",
+  "historyId" : "c278a3db6a67d0d7a1142ca15d11dfd5",
+  "time" : {
+    "start" : 1556786981324,
+    "stop" : 1556786999190,
+    "duration" : 17866
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_setup",
+    "time" : {
+      "start" : 1556786968738,
+      "stop" : 1556786981322,
+      "duration" : 12584
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d7fa1fa9b28d2ea2",
+      "name" : "log",
+      "source" : "d7fa1fa9b28d2ea2.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "9de5ff22889c989d",
+      "name" : "stdout",
+      "source" : "9de5ff22889c989d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "aea47e658b071b6e",
+      "name" : "stderr",
+      "source" : "aea47e658b071b6e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearch"
+  }, {
+    "name" : "host",
+    "value" : "TJ-LP-217"
+  }, {
+    "name" : "thread",
+    "value" : "11456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32c39eb5cd1190ed.json",
+  "parameterValues" : [ ]
+}

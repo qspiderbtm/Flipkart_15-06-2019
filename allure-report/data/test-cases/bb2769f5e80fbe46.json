@@ -1,0 +1,101 @@
+{
+  "uid" : "bb2769f5e80fbe46",
+  "name" : "test_search",
+  "fullName" : "tests.test_search.TestSearch#test_search",
+  "historyId" : "c278a3db6a67d0d7a1142ca15d11dfd5",
+  "time" : {
+    "start" : 1556965528235,
+    "stop" : 1556965571833,
+    "duration" : 43598
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'",
+  "statusTrace" : "self = <test_search.TestSearch object at 0x03FE0790>\n\n    def test_search(self):\n        driver = self.driver\n        dp = Search_Page(driver)\n        dp.close()\n        dp.search()\n        dp.snd()\n>       dp.brd()\n\ntests\\test_search.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npages\\dashboard.py:31: in brd\n    wb.click('xpath', self.brand)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.webgeneric.WebGeneric object at 0x0400CB70>\nlocator_type = 'xpath'\nlocator_val = '//*[@class=\"_1YuAuf\"]/section[6]/div[1]/*[2]'\n\n    def click(self, locator_type, locator_val):\n        e = self.locator(locator_type, locator_val)\n>       e.click()\nE       AttributeError: 'NoneType' object has no attribute 'click'\n\npages\\webgeneric.py:17: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_setup",
+    "time" : {
+      "start" : 1556965514635,
+      "stop" : 1556965528233,
+      "duration" : 13598
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'",
+    "statusTrace" : "self = <test_search.TestSearch object at 0x03FE0790>\n\n    def test_search(self):\n        driver = self.driver\n        dp = Search_Page(driver)\n        dp.close()\n        dp.search()\n        dp.snd()\n>       dp.brd()\n\ntests\\test_search.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npages\\dashboard.py:31: in brd\n    wb.click('xpath', self.brand)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.webgeneric.WebGeneric object at 0x0400CB70>\nlocator_type = 'xpath'\nlocator_val = '//*[@class=\"_1YuAuf\"]/section[6]/div[1]/*[2]'\n\n    def click(self, locator_type, locator_val):\n        e = self.locator(locator_type, locator_val)\n>       e.click()\nE       AttributeError: 'NoneType' object has no attribute 'click'\n\npages\\webgeneric.py:17: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d4b2e985701648d3",
+      "name" : "log",
+      "source" : "d4b2e985701648d3.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "64043058a4488e28",
+      "name" : "stdout",
+      "source" : "64043058a4488e28.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5641352b7a91f221",
+      "name" : "stderr",
+      "source" : "5641352b7a91f221.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearch"
+  }, {
+    "name" : "host",
+    "value" : "TJ-LP-217"
+  }, {
+    "name" : "thread",
+    "value" : "27516-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb2769f5e80fbe46.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,101 @@
+{
+  "uid" : "81d819ddc683ef8e",
+  "name" : "test_search",
+  "fullName" : "tests.test_search.TestSearch#test_search",
+  "historyId" : "c278a3db6a67d0d7a1142ca15d11dfd5",
+  "time" : {
+    "start" : 1556964187344,
+    "stop" : 1556964326343,
+    "duration" : 138999
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'",
+  "statusTrace" : "self = <test_search.TestSearch object at 0x0419D6B0>\n\n    def test_search(self):\n        driver = self.driver\n        dp = Search_Page(driver)\n>       dp.close()\n\ntests\\test_search.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npages\\dashboard.py:19: in close\n    wb.click('xpath', self.ppc)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.webgeneric.WebGeneric object at 0x041B29B0>\nlocator_type = 'xpath', locator_val = '//*[@class=\"_2AkmmA _29YdH8\"]'\n\n    def click(self, locator_type, locator_val):\n        e = self.locator(locator_type, locator_val)\n>       e.click()\nE       AttributeError: 'NoneType' object has no attribute 'click'\n\npages\\webgeneric.py:17: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_setup",
+    "time" : {
+      "start" : 1556964135957,
+      "stop" : 1556964187339,
+      "duration" : 51382
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'",
+    "statusTrace" : "self = <test_search.TestSearch object at 0x0419D6B0>\n\n    def test_search(self):\n        driver = self.driver\n        dp = Search_Page(driver)\n>       dp.close()\n\ntests\\test_search.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npages\\dashboard.py:19: in close\n    wb.click('xpath', self.ppc)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.webgeneric.WebGeneric object at 0x041B29B0>\nlocator_type = 'xpath', locator_val = '//*[@class=\"_2AkmmA _29YdH8\"]'\n\n    def click(self, locator_type, locator_val):\n        e = self.locator(locator_type, locator_val)\n>       e.click()\nE       AttributeError: 'NoneType' object has no attribute 'click'\n\npages\\webgeneric.py:17: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cdb95a3f77b67fc4",
+      "name" : "log",
+      "source" : "cdb95a3f77b67fc4.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "3cb4f8762f1f9237",
+      "name" : "stdout",
+      "source" : "3cb4f8762f1f9237.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "b2f2b64a8bdf543f",
+      "name" : "stderr",
+      "source" : "b2f2b64a8bdf543f.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearch"
+  }, {
+    "name" : "host",
+    "value" : "TJ-LP-217"
+  }, {
+    "name" : "thread",
+    "value" : "5344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81d819ddc683ef8e.json",
+  "parameterValues" : [ ]
+}

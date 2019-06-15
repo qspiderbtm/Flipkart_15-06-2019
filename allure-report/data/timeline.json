@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "TJ-LP-217",
+    "children" : [ {
+      "name" : "20028-MainThread",
+      "children" : [ {
+        "name" : "test_search",
+        "uid" : "36593c6e6f416e56",
+        "parentUid" : "d7e7095463927b7a71385f74bdb7de9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1556967096138,
+          "stop" : 1556967119155,
+          "duration" : 23017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d7e7095463927b7a71385f74bdb7de9e"
+    } ],
+    "uid" : "219f9b53f9583c8d2687074a7afeb066"
+  } ]
+}

@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat May 04 16:21:36 IST 2019","Sat May 04 16:21:59 IST 2019","23017","tests","test_search","TestSearch","","","test_search",""
