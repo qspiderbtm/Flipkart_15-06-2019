@@ -1,6 +1,5 @@
 import time
 from pages.webgeneric import WebGeneric
-from testdata.ExcelUtil import *
 
 class mouse_hover_page(WebGeneric):
     def __init__(self, driver):
