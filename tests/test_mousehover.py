@@ -1,8 +1,5 @@
-# from pages.loginpage import LoginPage
-# from pages.homepage import HomePage
-import pytest
 
-from pages.dropdown import drop_down_page
+import pytest
 from pages.mousehover import mouse_hover_page
 
 @pytest.mark.usefixtures("test_setup")
