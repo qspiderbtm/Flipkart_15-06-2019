@@ -1,8 +1,6 @@
 from selenium import webdriver
-
 from pages.locgeneric import LocGeneric
 import allure
-from selenium.webdriver.support.select import Select
 
 class WebGeneric(LocGeneric):
     def __init__(self, driver):
